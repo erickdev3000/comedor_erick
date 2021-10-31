@@ -1,0 +1,179 @@
+.gridContainer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #2196f3;
+  padding: 10px;
+}
+.gridItem {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  height: 91.9vh;
+}
+
+.body {
+  text-align: center;
+}
+.carouselSize {
+  width: 25%;
+  margin-left: 37vw;
+  padding-bottom: 10vh;
+}
+.paginationNav{
+  padding-left: 45%;
+}
+.itemComponent{
+  padding-bottom: 10vh;
+}
+.hideButton{
+  margin-bottom: 2vh;
+}
+.centerButtons {
+  margin-left: 25vw;
+  margin-bottom: 2vh;
+}
+.billInfo {
+  display: flex;
+  align-items: center;
+}
+.centerCarousel {
+  padding-left: 15vw;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+.centerCard {
+  margin-left: 0vw;
+  /* margin-bottom: 2vh; */
+}
+.logo{
+  padding-left: 25vw;
+}
+.centerSellCard {
+  padding-left: 3vw;
+  /* margin-bottom: 15vh; */
+}
+.centerInnerCard {
+  margin-bottom: 0vh;
+}
+.centerItems {
+  align-items: center;
+}
+.borderActive {
+  border-style: solid;
+  border-width: 5px;
+  border-color: blue;
+}
+.hoverCard:hover {
+  cursor: pointer;
+  background-color: gray;
+}
+.hoverCard:active {
+  background-color: gray;
+  transform: translateY(10px);
+}
+.fiado{
+  margin-left: 38vw;
+}
+.searchBar{
+  width: 100vw;
+  /* margin-left: -20vw; */
+  margin-top: 0vh;
+  margin-bottom: 1vh;
+}
+.paginationControls {
+  margin-left: 47vw;
+}
+.centered{
+  padding-left: 20vw;
+}
+.customerName{
+  width: 49vw;
+  margin-left: 26vw;
+  margin-bottom: 1vw;
+}
+.pendingOrderCards{
+  width: 98%;
+  margin-left: 1vw;
+  margin-top: 1vh;
+}
+.pendingOrderCardsImage{
+  display: inline-block;
+}
+.pendingOrderCardsBody{
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 1vw;
+}
+.pendingOrderCardsInnerCard{
+  display: inline-block;
+  padding-right: 2vw;
+}
+.collapseCard{
+  margin-left: 5vw;
+  width: 94%;
+}
+.collapseInnerCard{
+  background-color: lightgrey;
+}
+.activated{
+  background-color: lightblue;
+}
+.pendingOrderButton{
+  display: inline-block;
+  width: 46%;
+  margin-left: 1vw;
+  margin-top: 1vh;
+}
+@media screen and (max-width: 800px) {
+  .centered{
+    padding-left: 2vw;
+  }
+  .carouselSize {
+    width: 95vw;
+    margin-left: 1vh;
+    padding-bottom: 8vh;
+  }
+  .centerCarousel {
+    margin-left: 0vw;
+    margin-bottom: 2vh;
+  }
+  .centerCard {
+    margin-left: 2vw;
+    margin-bottom: 2vh;
+  }
+  .centerSellCard {
+    margin-left: -5vw;
+  }
+  .centerInnerCard {
+    margin-bottom: 25%;
+  }
+  .centerButtons {
+    margin-left: 25vw;
+    margin-bottom: 2vh;
+  }
+  .searchBar{
+    width: 100%;
+    margin-left: 0;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+  }
+  .customerName{
+    width: 100%;
+    margin-left: 0vw;
+    margin-bottom: 0vw;
+  }
+  .pendingOrderCardsInnerCard{
+    display: block;
+    padding-right: 2vw;
+  }
+  .collapseCard{
+    margin-left: 1vw;
+    width: 100%;
+    background-color: lightgray;
+  }
+  .paginationControls {
+    margin-left: 32vw;
+  }
+}

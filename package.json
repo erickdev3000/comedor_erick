@@ -1,0 +1,32 @@
+{
+  "name": "microempresas-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@tensorflow-models/posenet": "^2.2.2",
+    "@tensorflow/tfjs": "^3.9.0",
+    "@tensorflow/tfjs-backend-wasm": "^3.9.0",
+    "@tensorflow/tfjs-converter": "^3.9.0",
+    "@tensorflow/tfjs-core": "^3.9.0",
+    "bootstrap": "^5.1.1",
+    "chart.js": "^2.9.4",
+    "chartjs-plugin-datalabels": "^1.0.0",
+    "formidable": "^1.2.2",
+    "next": "^11.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-icons": "^4.2.0",
+    "react-toastify": "^7.0.4",
+    "react-webcam": "5.2.1",
+    "reactstrap": "^8.10.0",
+    "sharp": "^0.28.3"
+  },
+  "devDependencies": {
+    "compression-webpack-plugin": "^8.0.1"
+  }
+}

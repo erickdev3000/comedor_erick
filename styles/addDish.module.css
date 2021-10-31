@@ -1,0 +1,51 @@
+.labelsText {
+    width: '20vw';
+}
+
+.formBody{
+    margin-top: 5vh;
+    width: 75%;
+}
+
+.InLineBlock{
+    display: inline-block;
+}
+
+.Table{
+    margin-left: 20vw;
+    width: 50%;
+}
+.Table2{
+    margin-left: 10vw;
+    width: 80%;
+}
+.actions > div > button{
+    height: 3vh;
+    margin-bottom: 0.2vh;
+}
+
+.actions2 > div > button{
+    height: 4vh;
+    margin-bottom: 0.2vh;
+}
+
+.paginationNav{
+    margin-left: 40vw;
+}
+.imageViewer{
+    width: 25vw;
+    margin-top: 2vh;
+    margin-left: 12vw;
+}
+
+@media screen and (max-width: 800px) {
+    .imageViewer{
+        width: 30vw;
+        margin-top: 2vh;
+        margin-left: 15vw;
+    }
+    .actions2 > div > button{
+        display: none;
+    }
+    
+}
